@@ -1,0 +1,43 @@
+2025-03-20 15:27:47,116 - INFO - Task: summarize - Input received at 2025-03-20 15:27:47.115944
+2025-03-20 15:27:49,144 - ERROR - Task: summarize - Error: Error getting completion: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-20 15:33:24,875 - INFO - Task: write_article - Input received at 2025-03-20 15:33:24.875024
+2025-03-20 15:33:26,908 - ERROR - Task: write_article - Error: Error getting completion: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-20 15:57:36,419 - INFO - Task: write_article - Input received at 2025-03-20 15:57:36.419871
+2025-03-20 15:57:36,431 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 15:57:36,434 - ERROR - Task: write_article - Error: Error getting completion: model "llama3.2:3b" not found, try pulling it first (status code: 404)
+2025-03-20 16:14:21,498 - INFO - Task: write_article - Input received at 2025-03-20 16:14:21.498517
+2025-03-20 16:14:21,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:14:21,514 - ERROR - Task: write_article - Error: Error getting completion: model "meta-llama/Llama-3-8b" not found, try pulling it first (status code: 404)
+2025-03-20 16:15:35,340 - INFO - Task: write_article - Input received at 2025-03-20 16:15:35.339933
+2025-03-20 16:15:35,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:15:35,354 - ERROR - Task: write_article - Error: Error getting completion: model "meta-llama/Llama-3-7b" not found, try pulling it first (status code: 404)
+2025-03-20 16:20:20,242 - INFO - Task: write_article - Input received at 2025-03-20 16:20:20.242901
+2025-03-20 16:20:20,250 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:20:20,252 - ERROR - Task: write_article - Error: Error getting completion: model "llama3.3:70b" not found, try pulling it first (status code: 404)
+2025-03-20 16:25:15,858 - INFO - Task: write_article - Input received at 2025-03-20 16:25:15.858905
+2025-03-20 16:25:15,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:25:15,868 - ERROR - Task: write_article - Error: Error getting completion: model "llama3.3" not found, try pulling it first (status code: 404)
+2025-03-20 16:36:31,006 - INFO - Task: write_article - Input received at 2025-03-20 16:36:31.006372
+2025-03-20 16:36:31,041 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:36:31,043 - ERROR - Task: write_article - Error: Error getting completion: model "llama3.3" not found, try pulling it first (status code: 404)
+2025-03-20 16:37:41,940 - INFO - Task: write_article - Input received at 2025-03-20 16:37:41.940833
+2025-03-20 16:37:41,951 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-03-20 16:37:41,954 - ERROR - Task: write_article - Error: Error getting completion: model "llama3.3" not found, try pulling it first (status code: 404)
+2025-03-20 16:38:16,148 - INFO - Task: write_article - Input received at 2025-03-20 16:38:16.147896
+2025-03-20 16:44:53,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-20 16:51:09,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-20 16:51:09,271 - INFO - Task: write_article - Output generated at 2025-03-20 16:51:09.271143
+2025-03-20 16:51:09,271 - INFO - Validation result: True
+2025-03-20 17:09:35,955 - INFO - Task: sanitize - Input received at 2025-03-20 17:09:35.955472
+2025-03-20 17:12:20,075 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-20 17:17:15,810 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-20 17:17:15,811 - INFO - Task: sanitize - Output generated at 2025-03-20 17:17:15.811231
+2025-03-20 17:17:15,811 - INFO - Validation result: True
+2025-03-20 17:24:17,303 - INFO - Task: write_article - Input received at 2025-03-20 17:24:17.303000
+2025-03-20 17:34:03,416 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-20 17:38:33,503 - INFO - Task: write_article - Input received at 2025-03-20 17:38:33.503237
+2025-05-09 14:39:51,146 - INFO - Task: write_article - Input received at 2025-05-09 14:39:51.146532
+2025-05-09 14:44:49,152 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-09 14:49:39,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-09 14:49:39,723 - INFO - Task: write_article - Output generated at 2025-05-09 14:49:39.722077
+2025-05-09 14:49:39,723 - INFO - Validation result: True
